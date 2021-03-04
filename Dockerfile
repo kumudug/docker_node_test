@@ -11,7 +11,8 @@ COPY . /app
 # run npm install in WORKDIR
 RUN npm install 
 
-# Expose port 80 to outside
+# Expose port 80 to outside. 
+# This is only for documentation you still need to specify this port when running the container
 EXPOSE 80 
 
 # When an image is started run `node server.js`
