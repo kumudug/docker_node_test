@@ -14,3 +14,5 @@
 * To stop this
    - `docker ps` - This will show you the running containers. Find the name 
    - `docker stop [name]`
+* Docker hub image
+   - [kumudug/nodejs_test](https://hub.docker.com/repository/docker/kumudug/nodejs_test)
