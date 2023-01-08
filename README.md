@@ -10,7 +10,7 @@
    - `docker run -p 3000:80 86f519213eec`
    - `docker run -p 3000:80 repo:tag`
    - This will start that container and expose external port 3000 with the container port 80
-   - `localhost:3000` 
+   - You can go to `http://localhost:3000` to view the output
 * To stop this
    - `docker ps` - This will show you the running containers. Find the name 
    - `docker stop [name]`
